@@ -34,7 +34,7 @@ from willie.module import rule, priority, rate
 from ConfigParser import RawConfigParser
 
 conf = RawConfigParser()
-conf.read('/home/kunwon1/faucet/faucet.conf')
+conf.read('/home/ubuntu/gits/faucet/faucet.conf')
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG, \
                     filename=conf.get('main', 'basedir') + \
